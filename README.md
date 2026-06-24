@@ -1,6 +1,6 @@
-# Korean Variety Show Subtitler
+# Quick Subtitler Script
 
-Pipeline for generating English subtitles from long-form (1hr+) Korean variety show videos, without hitting the file-length limits most free online AI-subtitler tools impose. Audio extraction, transcription, and a rough translation pass are automated in a notebook; final cleanup and burned-in on-screen text are done manually in a subtitle editor.
+Pipeline for generating English subtitles from long-form (1hr+) videos, without hitting the file-length limits most free online AI-subtitler tools impose. Audio extraction, transcription, and a rough translation pass are automated in a notebook; final cleanup and burned-in on-screen text are done manually in a subtitle editor.
 
 ## What's automated vs. manual
 
@@ -13,7 +13,7 @@ Pipeline for generating English subtitles from long-form (1hr+) Korean variety s
 | Add burned-in on-screen text | ❌ Manual | Aegisub / Subtitle Edit |
 | Final QC | ❌ Manual | — |
 
-The last three steps can't be automated: burned-in graphics aren't in the audio track at all, and machine translation reliably flattens jokes/tone in variety-show speech, so a human pass is required either way.
+The last three steps can't be automated: burned-in graphics aren't in the audio track at all, and machine translation reliably flattens jokes/tone, especially in variety-show speech, so a human pass is required either way for high-quality subs.
 
 ## Usage
 
