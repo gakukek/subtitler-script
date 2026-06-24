@@ -18,7 +18,7 @@ The last three steps can't be automated: burned-in graphics aren't in the audio 
 ## Usage
 
 ### Option A — Google Colab (no local GPU needed)
-1. Open `notebook/transcribe_translate.ipynb` in Colab.
+1. Open `transcribe_translate.ipynb` in Colab.
 2. Upload your video to Google Drive, mount Drive in the notebook, set `VIDEO_PATH`.
 3. Run all cells.
 4. Download the resulting `*_en.srt` from Drive.
@@ -26,7 +26,6 @@ The last three steps can't be automated: burned-in graphics aren't in the audio 
 ### Option B — Local (if you have a GPU)
 ```bash
 git clone <this repo>
-cd korean-subtitler
 pip install -r requirements.txt
 jupyter notebook notebook/transcribe_translate.ipynb
 ```
